@@ -1,0 +1,38 @@
+@media (min-width: 1440px) {
+  .box_content .title1,
+  .box_content .title2 {
+    font-size: 3rem;
+    font-family: Lato;
+    font-weight: bold;
+  }
+  .title-section {
+    font-size: 1.75rem;
+  }
+  .pos {
+    position: relative;
+    top: 5.6rem;
+    left: 1.75rem;
+  }
+}
+@media (max-width: 1439px) {
+  .box_content .title1,
+  .box_content .title2 {
+    font-size: 2rem;
+    font-family: Lato;
+    font-weight: bold;
+  }
+  .title-section {
+    font-size: 1.5rem;
+  }
+  /* .box-left img {
+    max-width: 7rem;
+  } */
+  .box-img img {
+    max-width: 9rem;
+  }
+  .pos {
+    position: relative;
+    top: 5.6rem;
+    left: -2rem;
+  }
+}
