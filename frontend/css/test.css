@@ -79,7 +79,7 @@ header h2 {
 .scrolled.fade-in-bottom {
   animation: fade-in-bottom 1s ease-in-out both;
 }
-.scrolled.box_1.fade-in-bottom {
+/* .scrolled.box_1.fade-in-bottom {
   animation: fade-in-bottom 1.3s ease-in-out both;
 }
 .scrolled.box_2.fade-in-bottom {
@@ -90,7 +90,7 @@ header h2 {
 }
 .scrolled.box_4.fade-in-bottom {
   animation: fade-in-bottom 2.1s ease-in-out both;
-}
+} */
 
 .scrolled.slide-left {
   animation: slide-in-left 1s ease-in-out both;
