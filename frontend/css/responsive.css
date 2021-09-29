@@ -36,3 +36,163 @@
     left: -2rem;
   }
 }
+@media (max-width: 991px) {
+  .title-section {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .section-all {
+    padding: 1rem 0;
+  }
+  .contact {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .header-menu {
+    padding: 1rem 0;
+  }
+  .btn__menu {
+    background: none;
+    border: none;
+  }
+  .nav-menu ul li i {
+    position: absolute;
+    right: 15px;
+    z-index: 1;
+    color: #2e77c4;
+    top: 6px;
+    font-size: 1.6rem;
+  }
+
+  .nav-menu ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-menu ul ul {
+    display: none;
+  }
+
+  .process_technology {
+    padding-top: 3rem;
+  }
+
+  .item__product img {
+    height: auto;
+  }
+
+  .nav-menu ul ul li a {
+    padding-left: 1.5rem;
+  }
+
+  .nav-menu ul > li > a {
+    display: block;
+    background: #fff;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .nav-menu ul > li:not(:last-child) > a {
+    border-bottom: solid thin #ebebeb;
+  }
+
+  .nav-menu ul {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .box_what {
+    padding-top: 1rem;
+  }
+  .bnt_box {
+    display: block;
+  }
+  .bnt_box .btn_ {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-menu ul li:not(:last-child) {
+    margin-right: 0;
+  }
+  .nav-menu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  .btn_ a {
+    margin-right: 0;
+  }
+  .over,
+  .service_over {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .philosophy .row-cols-5 > * {
+    width: 40%;
+  }
+  .box_what .s-content,
+  .box-philosophy .s-content {
+    /* width: 500px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 5;
+    height: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .box-philosophy {
+    min-height: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  /* .box-philosophy .s-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  } */
+  .philosophy .row-cols-5 > * {
+    width: 80%;
+  }
+  .box_client::after {
+    display: none;
+  }
+  .box_content .s-content {
+    display: none;
+  }
+
+  .box-philosophy .title-box {
+    max-width: none;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .pos {
+    display: none;
+  }
+  .box_client {
+    margin-bottom: 1.5rem;
+  }
+  .box-about input {
+    width: 100%;
+  }
+  .btn_ a {
+    width: 100%;
+  }
+}

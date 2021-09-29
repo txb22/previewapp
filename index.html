@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./frontend/css/bootstrap.min.css">
     <link rel="stylesheet" href="./frontend/css/style.css">
+    <link rel="stylesheet" href="./frontend/css/test.css">
     <link rel="stylesheet" href="./frontend/css/responsive.css">
-    <link rel="stylesheet" href="./frontend/css/all.min.css">
-    <link rel="stylesheet" href="./frontend/css/fontawesome.min.css">
-    <link rel="stylesheet" href="./frontend/css/fontawesome.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>PreviewApp</title>
 </head>
@@ -20,16 +18,76 @@
         <div class="header-menu">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-10">
                         <div class="logo">
                             <a href=""><img src="./frontend/image/logo.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>
+                    <div class="col-2 d-lg-none d-block">
+                        <button class="btn__menu d-lg-none d-inline-block active">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -53 384 384" width="30">
+                                <path
+                                    d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                                <path
+                                    d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                                <path
+                                    d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                            </svg>
+                        </button>
+                    </div>
                     <div class="col-lg-8">
                         <div class="nav-menu">
                             <ul>
-                                <li><a href="">iOS</a></li>
-                                <li><a href="">Android</a></li>
+                                <li><a href="">iOS</a>
+                                    <ul>
+                                        <li>
+                                            <a href="">iPhone 13</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="">iPhone 13 Promax</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">iPhone 13 Mini</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">iPhone 12</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Android</a>
+                                    <ul>
+                                        <li>
+                                            <a href="">Sam sung</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="">Sam sung</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Oppo</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">Oppo</a>
+                                            <!-- <ul>
+                                                <li>
+                                                    <a href="">Sam sung</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Oppo</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Oppo</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Oppo</a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="">Mac-OS</a></li>
                                 <li><a href="">Blog</a></li>
                                 <li><a href="">About us</a></li>
@@ -37,16 +95,19 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-2">
                         <div class="contact">
                             <a href="tel:19001009" class="_contact d-flex align-items-center">CONTACT US</a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </header>
     <section class="banner">
+        <div id="bong_top"></div>
+        <div id="bong_top2"></div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -148,7 +209,7 @@
                 <div class="col-lg-4">
                     <div class="box-left">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/image 8.png" alt="">
@@ -160,14 +221,14 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/image 24.png" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/user1.png" alt="">
@@ -215,7 +276,7 @@
                 <div class="col-lg-4">
                     <div class="box-left">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/image 19.png" alt="">
@@ -227,14 +288,14 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/image 21.png" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-4">
                                 <div class="user_">
                                     <a href="">
                                         <img src=" ./frontend/image/image 25.png" alt="">
@@ -256,10 +317,10 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-5">
-                    <img src="./frontend/image/Group 96.png" class="img-fluid" alt="">
+                <div class="col-lg-5  js-scroll slide-left">
+                    <img src="./frontend/image/Group 96.png" class="img-fluid " alt="">
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5  js-scroll slide-right">
                     <div class="box_what">
                         <p class="title-section">
                             WHAT DOES <span class="text-gr">PROREVIEWSAPP</span> MEAN ?
@@ -300,12 +361,12 @@
             </div>
         </div>
     </section>
-    <section class="section-all philosophy">
-        <div class="container">
+    <section class="section-all philosophy ">
+        <div class="container  js-scroll fade-in-bottom">
             <div class="title-section text-center">
                 CORE VALUES AND CORPORATE PHILOSOPHY
             </div>
-            <div class="row row-cols-5">
+            <div class="row row-cols-5 over">
                 <div class="col">
                     <div class="box-philosophy">
                         <div class="number">
@@ -401,14 +462,19 @@
         </div>
     </section>
     <section class="section-all service">
-        <div class="container">
+        <div class="container ">
             <p class="title-section text-center">
                 <span class="text-gr">PROREVIEWSAPP </span>& SPEAKING NUMBERS
             </p>
-            <div class="s-content text-center mb-3">Over 8 years of establishment, we have built together:</div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="box-service text-center">
+            <div class="s-content text-center mb-3 text-gr">Over 8 years of establishment, we have built together:</div>
+            <div class="row service_over">
+                <div id="bong"></div>
+                <div id="bong2"></div>
+                <div id="bong3"></div>
+                <div id="bong4"></div>
+                <div id="bong5"></div>
+                <div class="col-lg-3 col-10">
+                    <div class="box-service text-center js-scroll box_1 fade-in-bottom">
                         <img class="mb-3" src="./frontend/image/Group.png" alt="">
                         <div class="content">
                             200.000 +
@@ -419,8 +485,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="box-service text-center">
+                <div class="col-lg-3 col-10">
+                    <div class="box-service text-center js-scroll box_2 fade-in-bottom">
                         <img class="mb-3" src="./frontend/image/Group 46.png" alt="">
                         <div class="content">
                             900.000 +
@@ -431,8 +497,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="box-service text-center">
+                <div class="col-lg-3 col-10">
+                    <div class="box-service text-center js-scroll box_3 fade-in-bottom">
                         <img class="mb-3" src="./frontend/image/Group 47.png" alt="">
                         <div class="content">
                             300.000 +
@@ -443,8 +509,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="box-service text-center">
+                <div class="col-lg-3 col-10">
+                    <div class="box-service text-center js-scroll box_4 fade-in-bottom">
                         <img class="mb-3" src="./frontend/image/Group 48.png" alt="">
                         <div class="content">
                             50.000.000
@@ -459,32 +525,34 @@
         </div>
     </section>
     <section class="section-all sense">
-        <div class="container">
+        <div class="container  js-scroll fade-in-bottom">
             <p class="title-section text-center">
                 WHAT WILL YOU GET FROM <span class="text-gr">PROREVIEWSAPP ?</span>
             </p>
-            <div class="box-img">
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 72.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 99.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 100.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 101.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 102.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 103.svg" alt="">
-                </a>
-                <a href="" class="icon-fes">
-                    <img src="./frontend/image/Group 104.svg" alt="">
-                </a>
+            <div class="row">
+                <div class="box-img">
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 72.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 99.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 100.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 101.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 102.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 103.svg" alt="">
+                    </a>
+                    <a href="" class="icon-fes">
+                        <img src="./frontend/image/Group 104.svg" alt="">
+                    </a>
+                </div>
             </div>
             <div class="box_content-sense">
                 <div class="row">
@@ -521,7 +589,7 @@
         </div>
     </section>
     <section class="section-all video">
-        <div class="container">
+        <div class="container  js-scroll fade-in-bottom">
             <p class="title-section text-center">
                 VIDEOS OF OUR STUDIES
             </p>
@@ -604,17 +672,23 @@
             </div>
         </div>
     </section>
-    <section class="section-all about-us">
-        <p class="title-section text-center">
+    <section class="section-all about-us ">
+        <p class="title-section text-center  js-scroll slide-right">
             LEAVE YOUR FEEDBACK ABOUT US
         </p>
-        <div class="container">
+        <div class="container  js-scroll slide-right">
             <div class="col-lg-8 mx-auto">
                 <div class="box-about">
                     <form action="">
                         <input type="text" placeholder="Type your name...">
                         <input type="text" placeholder="Type your email...">
                         <textarea name="" id="" cols="73" rows="10" placeholder="Type your message..."></textarea>
+                        <div class="btn_ text-center">
+                            <a href="">
+                                Upload Your Photo
+                            </a>
+                            <a href="">Send</a>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -626,12 +700,12 @@
                 <div class="col-lg-3">
                     <div class="box-logo">
                         <a href="">
-                            <img src="./frontend/image/logo1.png" alt="">
+                            <img src="./frontend/image/logo1.png" class="mb-4" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="box-use d-flex ">
+                <div class="col-lg-6 col-sm-8">
+                    <div class="box-use d-flex mb-5">
                         <div class="title">
                             Terms of Use
                         </div>
@@ -650,9 +724,9 @@
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0976173621707!2d105.85017601445465!3d21.0287797431546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab953357c995%3A0x1babf6bb4f9a20e!2zSOG7kyBIb8OgbiBLaeG6v20!5e0!3m2!1svi!2s!4v1632820479222!5m2!1svi!2s"
-                        width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        max-width="400" max-height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-4">
                     <div class="visa">
                         <div class="text">
                             Proreviewsapp Support Team
@@ -680,6 +754,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./frontend/js/script.js"></script>
+    <script src="./frontend/js/scroll.js"></script>
 </body>
 
 </html>
