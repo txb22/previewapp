@@ -199,6 +199,10 @@ ul li:hover a {
   height: 100%;
   object-fit: cover;
 }
+.swiper .swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+}
 .banner {
   position: relative;
   overflow: hidden;

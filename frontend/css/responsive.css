@@ -224,7 +224,7 @@
     display: block;
   }
 }
-@media(min-width:992px) and (max-width: 1366px) {
+@media (min-width: 992px) and (max-width: 1366px) {
   .box-about input {
     width: 48.5%;
   }
@@ -246,5 +246,10 @@
   }
   .contact ._contact {
     padding: 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .video .swiper {
+    padding-bottom: 3rem;
   }
 }
