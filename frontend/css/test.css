@@ -46,11 +46,11 @@ header h2 {
 }
 
 @media screen and (max-width: 650px) {
-  .scroll-container,
+  /* .scroll-container,
   .scroll-container:nth-of-type(even) {
     flex-direction: column;
     align-content: inherit;
-  }
+  } */
 
   /* .scroll-element {
     height: 100%;
@@ -77,7 +77,7 @@ header h2 {
 }
 
 .scrolled.fade-in-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
+  animation: fade-in-bottom 1.5s ease-in-out both;
 }
 /* .scrolled.box_1.fade-in-bottom {
   animation: fade-in-bottom 1.3s ease-in-out both;
@@ -93,11 +93,11 @@ header h2 {
 } */
 
 .scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
+  animation: slide-in-left 1.5s ease-in-out both;
 }
 
 .scrolled.slide-right {
-  animation: slide-in-right 1s ease-in-out both;
+  animation: slide-in-right 1.5s ease-in-out both;
 }
 
 /* ----------------------------------------------
@@ -154,3 +154,29 @@ header h2 {
     opacity: 1;
   }
 }
+/* body {
+  margin: 0;
+  padding: 0;
+}
+.block {
+  width: 80%;
+  height: 250px;
+  background: #ddd;
+  margin: 100px auto;
+}
+.block--black {
+  background-color: black;
+}
+.block--green {
+  background-color: green;
+}
+.block--orange {
+  background-color: orange;
+}
+.block--blue {
+  background-color: blue;
+}
+
+.block--image {
+  width: fit-content;
+} */

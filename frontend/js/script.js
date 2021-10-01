@@ -1,3 +1,17 @@
+// new WOW().init();
+
+//     wow = new WOW(
+//         {
+//             boxClass: 'wow',      // default
+//             animateClass: 'animated', // default
+//             offset: 0,          // default
+//             mobile: true,       // default
+//             live: true        // default
+//         }
+//     )
+//     wow.init();
+
+
 var swiper = new Swiper(".mySwiper", {
       autoplay: {
             delay: 5000
@@ -5,11 +19,10 @@ var swiper = new Swiper(".mySwiper", {
 });
 $(".mySwiper").hover(function () {
       (this).swiper.autoplay.stop();
+      console.log('stop')
 }, function () {
       (this).swiper.autoplay.start();
 });
-
-
 
 var swiper = new Swiper(".mySlide", {
       slidesPerView: 3,

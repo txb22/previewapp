@@ -14,7 +14,7 @@
     left: 1.75rem;
   }
   .box_what {
-    padding-top: 8rem;
+    padding-top: 9rem;
   }
 }
 @media (max-width: 1439px) {
@@ -34,8 +34,8 @@
     max-width: 9rem;
   }
   .pos {
-    position: relative;
-    top: 5.6rem;
+    position: absolute;
+    top: -1.5rem;
     left: -2rem;
   }
   .box_what {
@@ -119,6 +119,9 @@
   .bnt_box {
     display: block;
   }
+  .box_content-sense .bnt_box {
+    display: flex;
+  }
   .bnt_box .btn_ {
     display: block;
     margin-bottom: 1rem;
@@ -139,7 +142,8 @@
     margin-right: 0;
   }
   .over,
-  .service_over {
+  .service_over,
+  .sense .box-img {
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
@@ -162,6 +166,9 @@
   .box-philosophy {
     min-height: auto;
     margin-bottom: 1rem;
+  }
+  .box-about input {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
@@ -200,5 +207,44 @@
   }
   .btn_ a {
     width: 100%;
+  }
+  .box_content-sense {
+    margin-top: 2rem;
+  }
+  #bong4 {
+    display: none;
+  }
+  .box-about input:first-child {
+    margin-right: 0;
+  }
+  .box-about input {
+    width: 100%;
+  }
+  .box_content-sense .bnt_box {
+    display: block;
+  }
+}
+@media(min-width:992px) and (max-width: 1366px) {
+  .box-about input {
+    width: 48.5%;
+  }
+  .box-philosophy .s-content {
+    /* width: 500px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    -webkit-line-clamp: 7;
+    height: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .box-philosophy {
+    min-height: auto;
+  }
+  .contact ._contact::before {
+    margin-right: 0.25rem;
+  }
+  .contact ._contact {
+    padding: 0.5rem;
   }
 }
